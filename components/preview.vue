@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import previewImage from '~/components/preview-image.vue';
+import previewImage from "~/components/preview-image.vue";
 
 export default {
   components: {
@@ -17,8 +17,7 @@ export default {
       return this.$store.state.image;
     }
   }
-
-}
+};
 </script>
 
 <style lang="scss">
@@ -27,12 +26,11 @@ export default {
 .layout__preview {
   flex: 1 1 50%;
   position: relative;
+  overflow: hidden;
   height: 45vh;
 
   @media (min-width: 768px) {
-    min-height: 30em;
-    height: 100vh;
-    flex: 1 1 50%;
+    height: auto;
   }
 }
 

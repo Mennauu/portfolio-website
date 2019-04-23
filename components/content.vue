@@ -17,7 +17,7 @@ export default {
     contentFooter,
     contentNavigation
   }
-}
+};
 </script>
 
 <style lang="scss">
@@ -32,6 +32,7 @@ export default {
     display: flex;
     flex-direction: column;
     flex: 1 1 50%;
+    overflow: auto;
   }
 }
 

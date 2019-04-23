@@ -6,7 +6,7 @@
     <ul class="social__row">
       <li class="social__item">
         <a class="social__link" href="https://github.com/Mennauu" target="_blank" rel="noopener">
-          <img src="github.svg" alt="Github" class="social__image">Github
+          <img src="github.svg" alt="Github" class="social__image">GitHub
         </a>
       </li>
       <li class="social__item">
@@ -27,19 +27,9 @@
 <style lang="scss">
 @import "~assets/scss/_variables.scss";
 
-.social__description {
-  position: relative;
-  padding-top: 4em;
-}
-
-.social__description::before {
-  content: "";
-  background-color: $gray;
-  height: 1px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 12rem;
+.social {
+  padding-top: 2em;
+  border-top: 1px solid $gray;
 }
 
 .social__row {
@@ -57,6 +47,11 @@
   display: flex;
   align-items: center;
   color: $gray-dark;
+
+  &:hover {
+    color: $pink;
+    text-decoration: none;
+  }
 }
 
 .social__image {

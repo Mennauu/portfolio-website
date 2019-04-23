@@ -14,7 +14,7 @@ export default {
     preview,
     mainContent
   }
-}
+};
 </script>
 
 <style lang="scss">
@@ -50,6 +50,8 @@ ul {
 a {
   text-decoration: none;
   font-weight: 700;
+  color: #e90e63;
+  transition: 0.4s;
 }
 
 a:hover {
@@ -64,7 +66,7 @@ h1 {
 
 p {
   font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1100 - 300)));
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
   color: $gray-dark;
 }
 
@@ -75,11 +77,17 @@ p.lead {
 
 main {
   max-width: 36em;
+  padding-bottom: 3em;
 }
 
 .layout__container {
   @media (min-width: 768px) {
     display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
   }
 }
 

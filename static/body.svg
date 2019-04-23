@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1485px" height="2713px" viewBox="0 0 1485 2713" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>body</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1756.58669,374 C1909.28019,374 2408.10387,374 2536.60844,374 C2665.113,374 2765,425.283323 2765,598.529566 C2765,873.308082 2765,2514.70863 2765,2607.21151 C2765,2699.71438 2760.54644,2860.36394 2548.04799,2860.36394 C2335.54954,2860.36394 1818.08255,2860.36394 1725.4107,2860.36394 C1632.73885,2860.36394 1532,2804.49667 1532,2646.01125 C1532,2487.52584 1532,760.725116 1532,598.529566 C1532,413.626896 1647.53885,374 1756.58669,374 Z" id="path-1"></path>
+        <filter x="-12.4%" y="-7.2%" width="149.6%" height="124.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="153" dy="128" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="76.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0166930749   0 0 0 0 0.230583093   0 0 0 0 0.333519345  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhoneX" transform="translate(-1532.000000, -374.000000)">
+            <g id="body">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

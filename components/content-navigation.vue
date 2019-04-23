@@ -23,6 +23,9 @@
 <style lang="scss">
 @import "~assets/scss/_variables.scss";
 
+.menu {
+  padding-bottom: 2em;
+}
 .menu__row {
   display: flex;
 }

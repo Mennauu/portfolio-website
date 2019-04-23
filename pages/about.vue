@@ -1,19 +1,20 @@
 <template>
   <main role="main">
     <h1>About</h1>
-    <p class="lead">Hi! I'm Menno, 24 years old and a student at the University of Amsterdam</p>
-    <p>In addition to improving my coding skills, I like to interfere with clean and beautiful design. In my free time I nerd away at games or hang out in the park, drinking coffee.</p>
+    <p class="lead">Hi! I'm Menno, 24 years old and a student at the University of Amsterdam.</p>
+    <p>In addition to improving my coding skills, I like to interfere with performance, design and accessibility. In my free time, I enjoy cooking and working out. I try to follow a healthy lifestyle. I also like to play competitive online games or hang out in the park, drinking coffee.</p>
+    <p>On workdays you can find me in Amsterdam and during the weekends in Friesland, Heerenveen.</p>
   </main>
 </template>
 
 <script>
 export default {
   async fetch({ store }) {
-    store.commit('SET_PAGE', 'about')
-    store.commit('SET_IMAGE', {
-      src: '/about.jpeg',
-      alt: 'About'
-    })
+    store.commit("SET_PAGE", "about");
+    store.commit("SET_IMAGE", {
+      src: "/about.jpeg",
+      alt: "About"
+    });
   }
-}
+};
 </script>

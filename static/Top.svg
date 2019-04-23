@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="228px" height="37px" viewBox="0 0 228 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Top</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhoneX" transform="translate(-2068.000000, -474.000000)" fill="#F0F3F5">
+            <g id="Top" transform="translate(2068.972136, 474.497698)">
+                <path d="M10.8157895,7.63273657 L140.605263,7.63273657 C146.578659,7.63273657 151.421053,12.473901 151.421053,18.4457801 C151.421053,24.4176591 146.578659,29.2588235 140.605263,29.2588235 L10.8157895,29.2588235 C4.84239389,29.2588235 7.31529978e-16,24.4176591 0,18.4457801 C-7.31529978e-16,12.473901 4.84239389,7.63273657 10.8157895,7.63273657 Z" id="receiver"></path>
+                <ellipse id="camera" cx="208.681115" cy="17.8097187" rx="17.8142415" ry="17.8097187"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

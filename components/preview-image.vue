@@ -10,11 +10,11 @@
 export default {
   props: {
     alt: {
-      default: ''
+      default: ""
     },
     src: {
       required: true
-    },
-  },
-}
+    }
+  }
+};
 </script>
