@@ -1,10 +1,10 @@
 <template>
   <div class="layout__content">
-    <contentNavigation/>
+    <contentNavigation />
     <transition name="fade" mode="out-in">
-      <nuxt/>
+      <nuxt />
     </transition>
-    <contentFooter/>
+    <contentFooter />
   </div>
 </template>
 
@@ -38,7 +38,7 @@ export default {
 
 main {
   margin-top: 4em;
-  margin-bottom: 7em;
+  margin-bottom: 4em;
 
   @media (min-width: 768px) {
     margin-top: auto;

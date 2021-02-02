@@ -1,17 +1,18 @@
 <template>
   <main role="main">
-    <h1>Service</h1>
-    <p>As a front-end developer and designer I have multiple skills in petto.</p>
+    <h1>Linernote</h1>
   </main>
 </template>
 
 <script>
 export default {
+  layout: "item",
+
   async fetch({ store }) {
-    store.commit("SET_PAGE", "service");
+    store.commit("SET_PAGE", "linernote");
     store.commit("SET_IMAGE", {
-      src: "/service.jpeg",
-      alt: "Service"
+      src: "/linernote.png",
+      alt: "Linernote"
     });
   }
 };

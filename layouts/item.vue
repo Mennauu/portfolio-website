@@ -1,18 +1,15 @@
 <template>
   <div class="layout__container">
     <preview />
-    <mainContent />
   </div>
 </template>
 
 <script>
-import preview from "~/components/preview.vue";
-import mainContent from "~/components/content.vue";
+import preview from "~/components/item-preview.vue";
 
 export default {
   components: {
-    preview,
-    mainContent
+    preview
   }
 };
 </script>

@@ -5,9 +5,6 @@
         <nuxt-link to="/" class="menu__link">Home</nuxt-link>
       </li>
       <li class="menu__item">
-        <nuxt-link to="/service" class="menu__link">Service</nuxt-link>
-      </li>
-      <li class="menu__item">
         <nuxt-link to="/work" class="menu__link">Work</nuxt-link>
       </li>
       <li class="menu__item">
@@ -23,8 +20,10 @@
 <style lang="scss">
 @import "~assets/scss/_variables.scss";
 
-.menu {
-  padding-bottom: 2em;
+@media (min-width: 900px) {
+  .menu {
+    padding-bottom: 4em;
+  }
 }
 .menu__row {
   display: flex;
@@ -38,12 +37,13 @@
 
 .menu__link {
   color: $gray-dark;
-  font-weight: 900;
+  font-weight: 400;
 }
 
 .menu {
   .nuxt-link-exact-active {
     color: $black;
+    font-weight: 700;
   }
 }
 </style>

@@ -1,11 +1,11 @@
 <template>
-  <div class="layout__preview">
-    <preview-image :src="image.src" :alt="image.alt"/>
+  <div>
+    <item-preview-image :src="image.src" :alt="image.alt" />
   </div>
 </template>
 
 <script>
-import previewImage from "~/components/preview-image.vue";
+import itemPreviewImage from "~/components/item-preview-image.vue";
 
 export default {
   components: {
@@ -22,17 +22,6 @@ export default {
 
 <style lang="scss">
 @import "~assets/scss/_variables.scss";
-
-.layout__preview {
-  flex: 1 1 50%;
-  position: relative;
-  overflow: hidden;
-  height: 45vh;
-
-  @media (min-width: 900px) {
-    height: auto;
-  }
-}
 
 .preview__image {
   position: absolute;

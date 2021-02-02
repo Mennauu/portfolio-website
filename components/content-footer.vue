@@ -6,7 +6,7 @@
     <ul class="social__row">
       <li class="social__item">
         <a class="social__link" href="https://github.com/Mennauu" target="_blank" rel="noopener">
-          <img src="github.svg" alt="Github" class="social__image">GitHub
+          <img src="/github.svg" alt="Github" class="social__image" />GitHub
         </a>
       </li>
       <li class="social__item">
@@ -16,7 +16,7 @@
           target="_blank"
           rel="noopener"
         >
-          <img src="linkedin.svg" alt="LinkedIn" class="social__image">
+          <img src="/linkedin.svg" alt="LinkedIn" class="social__image" />
           LinkedIn
         </a>
       </li>
